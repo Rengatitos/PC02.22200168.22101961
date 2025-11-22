@@ -105,7 +105,7 @@ export default {
           localStorage.setItem('jwt', token)
           this.$axios.defaults.headers.common['Authorization'] = `Bearer ${token}`
 
-          this.$router.push('/digimon')
+          this.$router.push('/digimons')
         }
 
       } catch (err) {
